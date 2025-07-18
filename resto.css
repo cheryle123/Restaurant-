@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+    header{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+        padding-bottom: 50px;
+}
+.logo{
+    display: inline-block;
+    margin-right: 300px;
+}
+.b{display: inline-block;}
+.btn{
+    background-color: orangered ;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    margin-left: 100px;
+    width: 110px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+nav{
+    overflow: hidden;
+    z-index: 100;
+    display: inline-block;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    display: inline-block;
+}
+nav a:hover{
+    color: orangered;
+}
+.content{
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.btn2{
+    background-color: orangered ;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    width: 120px;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+header img{
+    height: 400px;
+    width: 600px;
+    
+}
+.heady{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about{
+    background-color: white;
+    color: black;
+    padding: 40px 40px 0px 40px;
+    text-align: center;
+   
+}
+.about img{
+    height: 350px;
+    width: 500px;
+    display: inline-block;
+}
+.abt{
+    height: 350px;
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 10px;
+    position: relative;
+    top:-40px;
+    text-align: left;
+    display: inline-block;
+}
+.menu{
+    background-color: white;
+    color: black; 
+}
+.menu h2{
+    text-align: center;
+}
+.choice{
+    background-color: rgb(254, 206, 214);
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.cat{
+    border: 2px, solid;
+    border-color: rgb(216, 112, 119);
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+}
+.cat:hover{
+    background-color: rgb(255, 77, 12);
+    color: white;
+}
+.menu img{
+    height: 350px;
+    width: 500px;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.contentmenu li{
+    list-style-type: decimal-leading-zero;
+}.contentmenu{
+    height: 350px;
+    width: 500px;
+    padding-top: 50px;
+}
+.contentmenu p{
+margin-left: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+}
+.popular{
+    background-color: whitesmoke;
+    padding: 20px 0px;
+    padding-bottom: 50px;
+    width: 100%;
+   
+    
+}
+.price{
+    box-shadow: 4px 4px 12px black  ;
+    border-radius: 4px;
+    height: 350px;
+    width: 390px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+    
+}
+.price img{
+    height: 220px;
+    width: 350px;
+
+}
+.pop{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    padding-left: 20px;
+    
+}
+.gall{
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 10px;
+    margin-left: 20px;
+}
+.gallery{
+    background-color: white;
+    padding-top: 20px;
+    width: 100%;
+}
+.gall img{
+    height: 270px;
+    width: 400px;
+    margin-top: 20px;
+}
+.order{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.form img{
+    height: 350px;
+    width: 600px;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 600px;
+    padding-left: 30px;
+}
+form{
+    width: 500px;
+    height: 310px;
+    box-shadow: 4px 4px 14px black;
+    margin-left: 40px;
+    padding: 20px;
+}
+input{
+    background-color: rgb(208, 208, 208);
+    color: black;
+    height: 25px;
+    width: 680px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: small;
+}
+
+@media (max-width: 950px){
+    body{
+        width: fit-content;
+        background-color: red;
+
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: fit-content;
+        place-self: center;
+    }
+    .logo{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    nav{
+        display: inline-table;
+        position: relative;
+        top: 4vh;
+        margin-left: -20px;
+    }
+    nav a{
+        display: inline;
+        width: 200px;
+        margin-right: -10px;
+    } 
+    .resp{
+        display: none;
+    }
+    .heady{
+        display: block;
+       place-self: center;
+       width: fit-content;
+    }
+    .heady img{
+        width: fit-content;
+        height: 270px;
+        place-self: center;
+        
+    }
+    .content{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        padding-left: 60px;
+    }
+    .content button {
+        display: block;
+        margin-top: 10px;
+        width: 275px;
+    } 
+    .about img{
+        width: 450px;
+        display: block;
+        place-self: center;
+        margin-bottom: 40px;
+        
+    }
+    .abt{
+        margin-top: 20px;
+        width: 350px;
+        
+    }
+    .abt button{
+        width: 165px;
+        margin-top: 20px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .butt{
+        display: grid;
+        width: 500px;
+        place-self: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .grid{
+        display: block;
+        place-self: center;
+    }
+    .grid img{
+        height: 300px;
+        width: 350px;
+        margin-left: -30px;
+        
+    }
+    .contentmenu{
+        width: 350px;
+        place-self: center;
+    }
+    .popular{
+        width: 100%;
+    }
+    .pop{
+        display: block;
+        place-self: center;
+    }
+    .price{
+        width: 390px;
+    }
+    .gallery{
+        width: 100%;
+    }
+    .gall{
+        display: block;
+        width: 400px;
+        place-self: center;
+    }
+    .gall img{
+        margin-bottom: 10px;
+        height: 300px;
+    }
+    .form img{
+        display: none;
+    }
+    form{
+        width: 350px;
+        margin-top: 20px;
+        height: 350px;
+        margin-left: 100px;  
+    }
+    form input{
+        width: 350px;
+        margin-top: 20px;
+    }
+    .form button{
+        width: 150px;
+        margin-top: 20px;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    }
+    
